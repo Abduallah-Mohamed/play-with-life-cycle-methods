@@ -1,0 +1,40 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+.Deck {
+    font-family: 'Slabo 13px', serif;
+}
+
+.Deck-CardArea {
+    margin-top: 90px;
+}
+
+.Deck-header{
+    /* font-family: 'Slabo 13px', serif; */
+    color: azure;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-size: 20px
+}
+
+.Deck-btn {
+    background: none;
+    font: inherit;
+    padding: 1em 2em;
+    color:#009688;
+    margin: 0.5em;
+    cursor: pointer;
+    border: 2px solid;
+    transition: all .3s ease;
+    font-size: 20px
+}
+
+.Deck-btn:hover {
+    border-color: #4caf50;
+    color: white;
+    box-shadow: inset 0 0 0 2em #4caf50;
+    /* font-weight: 600; */
+}
